@@ -129,11 +129,12 @@ div.menu{
 
 /*Footer*/
 #footer{
-    padding: 100px 10px 50px 10px;
-    position: relative;
+    padding: 150px 10px 50px 10px;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(0%, -50%);
     margin: auto;
+    position: absolute;
+    display: block;
 }
 /*#email{
     max-width: 500px;
@@ -151,6 +152,7 @@ a.right-footer{
     background-color: #FFE15F;
     display: inline-block;
     border-radius: 50%;
+    margin-bottom: 3px;
 }
 
 /*intro*/
