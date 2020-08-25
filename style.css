@@ -24,8 +24,9 @@ body{
 /*card container*/
 #card-container{
     display: flex;
+    justify-items: center;
     flex-direction: column;
-    align-content: center;
+    margin: auto;
 }
 
 /*Text style*/
@@ -108,41 +109,40 @@ div.menu{
     padding: 30px 0px;
 }
 #home{
-    max-width: 5%;
+    max-width: 10%;
     float: left;
     padding: 20px;
     display: inline;
 }
 #about{
     padding-right: 30px;
+    text-align: right;
 }
 #topmenu{
     position: fixed;
     top: 0;
-    width: 100%;
-    background-color: #1B1A1A;
+    width: 60%;
+    background-color: none;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 /*Footer*/
-div.right{
-    display: inline-block;
-    padding-right:10px;
-    padding-left:10px;
-    float: right;
-    right: 0px;
-    display: inline-block;
-    max-width: 500px;
-    padding: 20px;
+#footer{
+    padding: 100px 10px 50px 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: auto;
 }
-#email{
+/*#email{
     max-width: 500px;
     float: left;
     display: inline-block;
     padding: 20px;
-}
+}*/
 a.right-footer{
     display: inline-block;
-    max-width: 200px;
     padding: 0px 10px;
 }
 .dot{
@@ -158,28 +158,46 @@ a.right-footer{
     min-height: 800px;
     display: flex;
     /*justify-content: center;*/
-    align-items: center;
+    position: relative;
+    text-align: center;
 }
 #intro-text{
     padding-top: 50px;
-    /*position: absolute;
-    top: 50%;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    Text-align: left;
+}
+/*cover image*/
+#cover{
+    width: 100%;
+    filter: grayscale(100%);
 }
 
 /*Responsive*/
 @media screen and (min-width: 1200px) {
-    #container {
-      width:1156px;
+    #topmenu {
+        width:1156px;
+    }
+    #card-container{
+        width: 1156px;
+    }
+    #footer{
+        width: 1156px;
     }
   }
-#container{
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    margin: auto;
-}
+@media screen and (max-width: 1200px) {
+    #topmenu {
+        width:100%;
+    }
+    #card-container{
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
+  }
 
-/*cover image*/
-#cover{
-    width: 100%;
-}
+  
+
