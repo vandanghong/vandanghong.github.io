@@ -7,6 +7,7 @@ body{
     transition: 0.3s;
     border-radius: 40px; 
     max-width: 567px;
+    margin: 15px;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -20,12 +21,19 @@ body{
     height: auto;
     max-width: 567px;
 }
+#card2{
+    position: relative;
+    top: 300px;
+}
+#card-text h2{
+    line-height: 15px;
+}
 
 /*card container*/
 #card-container{
     display: flex;
     justify-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
 }
 
@@ -125,16 +133,15 @@ div.menu{
     background-color: none;
     left: 50%;
     transform: translate(-50%, 0%);
+    z-index: 10;
 }
 
 /*Footer*/
 #footer{
     padding: 150px 10px 50px 10px;
-    left: 50%;
-    transform: translate(0%, -50%);
-    margin: auto;
+    /*left: 50%;
+    transform: translate(-50%, 0%);*/
     position: absolute;
-    display: block;
 }
 /*#email{
     max-width: 500px;
@@ -145,6 +152,7 @@ div.menu{
 a.right-footer{
     display: inline-block;
     padding: 0px 10px;
+    margin: auto;
 }
 .dot{
     height: 5px;
@@ -164,31 +172,37 @@ a.right-footer{
     text-align: center;
 }
 #intro-text{
-    padding-top: 50px;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    Text-align: left;
+    Text-align: center;
 }
 /*cover image*/
 #cover{
+    object-fit: cover;
     width: 100%;
+    height: 800px;
+    filter: blur(8px);
     filter: grayscale(100%);
+    -webkit-filter: blur(8px);
 }
 
-/*Responsive*/
+/*Responsive - màn rộng*/
 @media screen and (min-width: 1200px) {
     #topmenu {
         width:1156px;
     }
     #card-container{
         width: 1156px;
+
     }
     #footer{
         width: 1156px;
     }
   }
+/*Responsive - màn hẹp*/
 @media screen and (max-width: 1200px) {
     #topmenu {
         width:100%;
