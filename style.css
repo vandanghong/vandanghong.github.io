@@ -228,4 +228,7 @@ a.right-footer{
 a:hover{
     box-shadow: #FFE15F;
 }
-
+@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+body{
+    font-family: 'Lato',serif;
+}
