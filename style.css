@@ -1,5 +1,7 @@
 body{
     background-color: #1B1A1A;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 /*card style*/
 .card {
