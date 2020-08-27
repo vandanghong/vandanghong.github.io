@@ -47,6 +47,10 @@ body{
 }
 
 /*Text style*/
+@font-face{
+    src: url(Fonts/Lato-Regular.ttf);
+    font-family: Lato;
+}
 h1 {
     font-family: Lato;
     font-style: normal;
@@ -71,6 +75,7 @@ h2.light {
 h2.works {
     color: #FFE15F;
     text-align: center;
+    padding: 30px 0px;
 }
 
 h3{
