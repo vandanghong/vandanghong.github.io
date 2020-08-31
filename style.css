@@ -1,3 +1,56 @@
+/* Smartphone (horizontal phones, 576px and down)*/
+@media screen and (max-width: 575px) {  
+    #cover{
+        height:700px;
+        overflow: hidden;
+    }
+    #logo img{
+        width: 60px;
+        height: auto;
+    }
+    #intro{
+        position: absolute;
+        left: 30px;
+        top: 100px;
+        right: 30px;
+    }
+    #intro h2{
+        font-size: 36px;
+    }
+    #about{
+        padding: 10px 0px;
+        }
+    #menu{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        margin: 10px 0px;
+    }
+    #works{
+        padding: 0px;
+    }
+    .card-img{
+        border-radius: 15px;
+    }
+    #footer{
+        margin: 30px 0px 40px 0px;
+        align-items: center;
+    }
+    #footer a{
+        padding: 7px;
+    }
+    .dot{
+        display: none;
+    }
+    #card-container{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    div.card{
+        margin-bottom: 50px;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media screen and (min-width: 576px) {  }
 
@@ -32,7 +85,7 @@
     #works{
         padding: 30px;
     }
-    #card-img{
+    .card-img{
         border-radius: 20px;
     }
     #footer{
@@ -41,7 +94,10 @@
         align-items: center;
     }
     #card-container{
-        margin-top: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    div.card{
         margin-bottom: 50px;
     }
  }
@@ -61,9 +117,9 @@ a:hover{
 /*#card-img{
     border-style: solid;
     border-width: 0.5px;
-    border-color: white;*/
-}
-#card-text{
+    border-color: white;
+}*/
+.card-text{
     color: #3E3B3B;
 }
 #card a:hover{
@@ -78,4 +134,7 @@ a:hover{
 }
 #footer a{
     margin: 0px 10px;
+}
+.space{
+    height: 50px;
 }
