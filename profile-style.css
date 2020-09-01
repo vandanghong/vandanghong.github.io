@@ -1,0 +1,63 @@
+/* Smartphone (horizontal phones, 576px and down)*/
+@media screen and (max-width: 575px) {
+    h1{
+        font-size: 40px;
+    }  
+    h2{
+        font-size: 20px;
+    }
+    #profile-pic{
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) { 
+    h1{
+        font-size: 40px;
+    }  
+    h2{
+        font-size: 20px;
+    }
+    #profile-pic{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    #profile-pic img{
+        max-height: 100%;
+    }
+}
+
+body{
+    background-color: #1B1A1A;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body, html{
+    height: 100%;
+}
+a{
+    color: #FFE15F;
+}
+a:hover{
+    color: #D78D1E;
+    text-decoration: none;
+}
+.footer a{
+    margin: 0px 10px;
+}
+.space{
+    height: 50px;
+}
+.footer{
+    margin: 100px 0px 40px 0px;
+    align-items: center;
+}
