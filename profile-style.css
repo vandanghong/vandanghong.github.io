@@ -7,39 +7,94 @@
         font-size: 20px;
     }
     #profile-pic{
-        height:100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         overflow: hidden;
+        margin: none;
+        padding: none;
+    }
+    #profile-pic img{
+        height: 570px;
+        width: auto;
+    }
+    #cover-letter{
+        margin-top: 20px;
     }
 }
+/* Medium devices (tablets, 575px and up)*/
+@media screen and (min-width: 575px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    #profile-pic{
+        overflow: hidden;
+        margin: none;
+        padding: none;
+    }
+    #profile-pic img{
+        height: 650px;
+        width: auto;
+    }
+    #cover-letter{
+        margin-top: 20px;
+    }
+} 
 /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    #profile-pic{
+        overflow: hidden;
+        margin: none;
+        padding: none;
+    }
+    #profile1{
+        margin-top: 85px;
+    }
+    #profile-pic img{
+        height: 650px;
+        width: auto;
+    }
+    #cover-letter{
+        margin-top: 20px;
+    }
 }
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) { 
     h1{
-        font-size: 40px;
-    }  
+        font-size: 50px;
+    }
     h2{
-        font-size: 20px;
+        font-size: 27px;
     }
     #profile-pic{
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         overflow: hidden;
     }
     #profile-pic img{
-        max-height: 100%;
+        height: 650px;
+        width: auto;
+    }
+    #profile1{
+        margin-top: 110px;
+    }
+    #cover-letter{
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        height: 650px;
     }
 }
 
 body{
     background-color: #1B1A1A;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: Sauto;
 }
 body, html{
     height: 100%;
@@ -60,4 +115,13 @@ a:hover{
 .footer{
     margin: 100px 0px 40px 0px;
     align-items: center;
+}
+#profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cover-letter{
+    text-align: justify;
+    text-justify: inter-character;
 }

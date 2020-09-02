@@ -18,16 +18,13 @@
     }
     #about{
         padding: 10px 0px;
-        }
+    }
     #menu{
         position: fixed;
         top: 0;
         z-index: 10;
         margin: 10px 0px;
         
-    }
-    #works{
-        padding: 0px;
     }
     .card-img{
         border-radius: 15px;
@@ -81,10 +78,6 @@
         top: 0;
         z-index: 10;
         margin: 10px 0px;
-        
-    }
-    #works{
-        padding: 0px;
     }
     .card-img{
         border-radius: 30px;
@@ -112,6 +105,10 @@
         height: 800px;
         overflow: hidden;
     }
+    #cover img{
+        height: 1000px;
+        width: auto;
+    }
     #logo img{
         width: 130px;
         height: auto;
@@ -119,7 +116,7 @@
     #intro{
         position: absolute;
         left: 50%;
-        top: 40%;
+        top: 35%;
         transform: translate(-50%, -50%);
     }
     #about{
@@ -131,9 +128,6 @@
         z-index: 10;
         margin: 20px 0px;
     }
-    #works{
-        padding: 30px;
-    }
     .card-img{
         border-radius: 20px;
     }
@@ -142,6 +136,9 @@
         display: flex;
         align-items: center;
     }
+    .footer a{
+        padding: 5px;
+    }
     #card-container{
         margin-top: 100px;
         margin-bottom: 100px;
@@ -149,6 +146,7 @@
     div.card{
         margin-bottom: 50px;
     }
+
 }
 
 
@@ -173,20 +171,6 @@ a:hover{
 #card a:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.dot{
-    height: 5px;
-    width: 5px;
-    background-color: #FFE15F;
-    border-radius: 50%;
-    margin-bottom: 3px;
-}
-.footer a{
-    margin: 0px 10px;
-}
-.space{
-    height: 50px;
-}
-.footer{
-    margin: 100px 0px 40px 0px;
-    align-items: center;
+#cover h2{
+    color: aliceblue;
 }
