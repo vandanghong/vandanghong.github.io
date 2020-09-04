@@ -1,11 +1,69 @@
-@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+@font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-ThinItalic.ttf") format("truetype");
+    font-weight: thin;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-Thin.ttf") format("truetype");
+    font-weight: thin;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-LightItalic.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-Light.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-BlackItalic.ttf") format("truetype");
+    font-weight: bolder;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("Fonts/Lato-Black.ttf") format("truetype");
+    font-weight: bolder;
+    font-style: normal;
+  }  
 body{
     font-family: 'Lato',serif;
 }
 h1 {
     font-family: Lato;
     font-style: normal;
-    /*font-weight: 600;*/
     font-size: 48px;
     color: #ffffff;
 }
@@ -16,12 +74,12 @@ h1.name{
 h2 {
     font-family: Lato;
     font-style: normal;
-    /*font-weight: 600;*/
+    font-weight:thin;
     font-size: 36px;
-    color: #c2c2c2;
+    color: #ebebeb;
 }
-h2.lt {
-    font-weight: 300;
+h2.bold {
+    font-weight: bold;
 }
 h2.works {
     color: #FFE15F;
@@ -32,14 +90,12 @@ h2.works {
 h3{
     font-family: Lato;
     font-style: normal;
-    /*font-weight: 600;*/
     font-size: 24px;
     color: #FFFFFF;
 }
 p{
     font-family: Lato;
     font-style: normal;
-    /*font-weight: 300;*/
     font-size: 24px;
     color: #FFFFFF;
 }
@@ -47,7 +103,6 @@ p{
 h4{
     font-family: Lato;
     font-style: normal;
-    /*font-weight: 600;*/
     font-size: 18px;
     color: #EBEBEB;
 }
@@ -55,29 +110,30 @@ h4.regular {
     font-weight: normal;
 }
 h4.light {
-    /*font-weight: 300;*/
+    font-weight: thin;
 }
 h4.black {
-    /*font-weight: 900;*/
+    font-weight: bold;
     color: #FFE15F;
 }
 
 h5{
     font-family: Lato;
     font-style: normal;
-    /*font-weight: 600;*/
     font-size: 20px;
-    /*line-height: 19px;*/
+    font-weight: bold;
     text-transform: uppercase;
-
     color: #D78D1E;
 }
 h5.regular{
     font-weight: normal;
     text-transform: none;
-    color: #c2c2c2;
+    color: #ebebeb;
 }
-
+h5.sm-txt-cover{
+    color: #EBEBEB;
+    font-weight: bold;
+}
 /* Smartphone (vertical phones, 576px and down)*/
 @media screen and (max-width: 575px) {  
     #logo img{
@@ -192,12 +248,12 @@ h5.regular{
 .footer a{
     margin: 0px 10px;
 }
-.space{
-    height: 50px;
-}
 .footer{
     margin: 100px 0px 40px 0px;
     align-items: center;
+}
+.space{
+    height: 50px;
 }
 .space2{
     height: 20px;
@@ -205,12 +261,15 @@ h5.regular{
 .space3{
     height: 10px;
 }
+.space4{
+    height: 5px;
+}
 .arrow{
     display:flex;
     justify-content: center;
 }
 i{
-    color: #FFE15F;
+    color: #FFFFFF;
 }
 li{
     color: #c2c2c2;
