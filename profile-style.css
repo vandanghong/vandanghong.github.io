@@ -63,6 +63,9 @@
     #cover-letter{
         margin-top: 20px;
     }
+    #before-applications{
+        display: none;
+    }
 }
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) { 
@@ -89,6 +92,10 @@
         align-content: flex-end;
         height: 650px;
     }
+    #before-applications{
+        display: none;
+    }
+    
 }
 
 body{
@@ -124,4 +131,14 @@ a:hover{
 #cover-letter{
     text-align: justify;
     text-justify: inter-character;
+}
+#carousel1{
+    height: 300px;
+    overflow: hidden;
+}
+.carousel img{
+    vertical-align: center;
+    justify-content: center;
+    width: max-content;
+    height: auto;
 }
