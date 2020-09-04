@@ -64,11 +64,11 @@
 /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
     #logo img{
-        width: 60px;
+        width: 70px;
         height: auto;
     }
     #about{
-        padding: 10px 0px;
+        padding: 20px 0px;
         }
     #menu{
         position: fixed;
@@ -179,4 +179,16 @@ a:hover{
     -moz-box-sizing: border-box;
     z-index: 5;
     position: relative;
+}
+.scroll-down-cue {
+    margin-top: -80px;
+    height: 80px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.scroll-down-cue a{
+    position: relative;
+    margin: 0 auto;
+    opacity: 0.6;
 }
