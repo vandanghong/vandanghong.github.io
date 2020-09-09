@@ -83,7 +83,8 @@ h2.bold {
 }
 h2.works {
     color: #FFE15F;
-    text-align: center;
+    text-align: left
+;
     margin-bottom: 0px;
 }
 
@@ -140,8 +141,9 @@ h5.sm-txt-cover{
         width: 70px;
         height: auto;
     }
-    #about{
+    .about{
         padding: 10px 0px;
+        font-size: 14px;
     }
     #menu{
         position: fixed;
@@ -167,7 +169,7 @@ h5.sm-txt-cover{
         width: 60px;
         height: auto;
     }
-    #about{
+    .about{
         padding: 10px 0px;
     }
     #menu{
@@ -190,7 +192,7 @@ h5.sm-txt-cover{
         width: 90px;
         height: auto;
     }
-    #about{
+    .about{
         padding: 10px 0px;
     }
     #menu{
@@ -213,7 +215,7 @@ h5.sm-txt-cover{
         width: 130px;
         height: auto;
     }
-    #about{
+    .about{
         padding: 10px 0px;
         }
     #menu{
@@ -277,4 +279,13 @@ li{
 .txt-justify{
     text-align: justify;
     text-justify: inter-character;
+}
+.dash1{
+    height: 10px;
+    width: 50px;
+    color: #FFE15F;
+}
+.about{
+    text-transform: uppercase;
+
 }
