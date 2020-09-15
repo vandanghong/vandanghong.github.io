@@ -20,7 +20,7 @@ body, html{
     overflow-y: auto;
 }
 .header-img {
-    background-image: url("Cookoo-pic/cover3.png");
+    background-image: url("../Cookoo-pic/cover3.png");
     background-position: center center;
     -moz-background-size: cover;
     -webkit-background-size: cover;

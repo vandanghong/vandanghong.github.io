@@ -1,11 +1,5 @@
 /* Smartphone (horizontal phones, 576px and down)*/
 @media screen and (max-width: 575px) {
-    h1{
-        font-size: 40px;
-    }  
-    h2{
-        font-size: 20px;
-    }
     #profile-pic{
         overflow: hidden;
         margin: none;
@@ -21,12 +15,6 @@
 }
 /* Medium devices (tablets, 575px and up)*/
 @media screen and (min-width: 575px) {
-    h1{
-        font-size: 50px;
-    }
-    h2{
-        font-size: 27px;
-    }
     #profile-pic{
         overflow: hidden;
         margin: none;
@@ -42,12 +30,6 @@
 } 
 /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
-    h1{
-        font-size: 50px;
-    }
-    h2{
-        font-size: 27px;
-    }
     #profile-pic{
         overflow: hidden;
         margin: none;
@@ -69,12 +51,6 @@
 }
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) { 
-    h1{
-        font-size: 50px;
-    }
-    h2{
-        font-size: 27px;
-    }
     #profile-pic{
         overflow: hidden;
     }

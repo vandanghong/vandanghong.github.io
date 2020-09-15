@@ -1,0 +1,390 @@
+@font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "lato";
+    src: url("../Fonts/Lato-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }  
+
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+  }  
+  @font-face {
+    font-family: "merri";
+    src: url("../Fonts/Merriweather-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }  
+  @font-face {
+      font-family: Os;
+      src: url(../Fonts/Oswald-VariableFont_wght.ttf);
+      font-weight: 200;
+  }
+
+body{
+    font-size: 62.5%;
+    font-family: 'Lato',serif;
+    font-size: 1.6rem;
+}
+p.h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.8rem;
+    color: #ffffff;
+}
+p.h1-name{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.6rem;
+    color:#FFE15F;
+}
+
+p.h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: #ebebeb;
+}
+p.h2-bold {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+p.h2-light {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+p.h2-works {
+    font-family: Lato;
+    color: #FFE15F;
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 3.0rem;
+}
+
+p.h3{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+p.h4{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #EBEBEB;
+}
+p.h4-regular {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+p.h4-light {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+p.h4-black {
+    font-family: lato;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+p.h5{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #D78D1E;
+}
+p.h5-regular{
+    font-family: Lato;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 2.0rem;
+    color: #ebebeb;
+}
+p.h5-sm-txt{
+    font-family: Lato;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #ebebeb;
+}
+p.cv{
+    font-family: lato;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    margin-bottom: none;
+}
+p.cv-bold{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+/* Smartphone (vertical phones, 576px and down)*/
+@media screen and (max-width: 575px) {  
+    #logo img{
+        width: 70px;
+        height: auto;
+    }
+    .about{
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+    #menu{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        margin: 10px 0px;
+    }
+    .footer a{
+        padding: 5px;
+    }
+    .footer{
+        margin: 30px 0px 40px 0px;
+        align-items: center;
+    }
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {  
+    #logo img{
+        width: 60px;
+        height: auto;
+    }
+    .about{
+        padding: 10px 0px;
+    }
+    #menu{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        margin: 10px 0px;
+    }
+    .footer a{
+        padding: 5px;
+    }
+    .footer{
+        margin: 30px 0px 40px 0px;
+        align-items: center;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+    #logo img{
+        width: 90px;
+        height: auto;
+    }
+    .about{
+        padding: 10px 0px;
+    }
+    #menu{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        margin: 10px 0px;
+    }
+    .footer a{
+        padding: 5px;
+    }
+    .footer{
+        margin: 30px 0px 40px 0px;
+        align-items: center;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) { 
+    #logo img{
+        width: 130px;
+        height: auto;
+    }
+    .about{
+        padding: 10px 0px;
+        }
+    #menu{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        margin: 20px 0px;
+    }
+    .footer{
+        margin: 100px 0px 40px 0px;
+        display: flex;
+        align-items: center;
+    }
+    .footer a{
+        padding: 5px;
+    }
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: #FFE15F;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+.dot2{
+    height: 5px;
+    width: 5px;
+    background-color: #c2c2c2;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+.footer a{
+    margin: 0px 10px;
+}
+.footer{
+    margin: 100px 0px 40px 0px;
+    align-items: center;
+}
+.space{
+    height: 50px;
+}
+.space2{
+    height: 20px;
+}
+.space3{
+    height: 10px;
+}
+.space4{
+    height: 5px;
+}
+.arrow{
+    display:flex;
+    justify-content: center;
+}
+i{
+    color: #FFFFFF;
+}
+li{
+    color: #c2c2c2;
+}
+.txt-justify{
+    text-align: justify;
+    text-justify: inter-character;
+}
+.dash1{
+    height: 10px;
+    width: 50px;
+    color: #FFE15F;
+}
+.about{
+    text-transform: uppercase;
+}
