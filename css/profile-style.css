@@ -6,8 +6,8 @@
         padding: none;
     }
     #profile-pic img{
-        height: 570px;
-        width: auto;
+        height: auto;
+        max-width: 100%;
     }
     #cover-letter{
         margin-top: 20px;
@@ -21,8 +21,8 @@
         padding: none;
     }
     #profile-pic img{
-        height: 650px;
-        width: auto;
+        height: auto;
+        max-width: 100%;
     }
     #cover-letter{
         margin-top: 20px;
@@ -39,8 +39,8 @@
         margin-top: 85px;
     }
     #profile-pic img{
-        height: 650px;
-        width: auto;
+        height: auto;
+        max-width: 100%;
     }
     #cover-letter{
         margin-top: 20px;
@@ -55,8 +55,8 @@
         overflow: hidden;
     }
     #profile-pic img{
-        height: 650px;
-        width: auto;
+        height: auto;
+        max-width: 100%;
     }
     #profile1{
         margin-top: 110px;
@@ -66,7 +66,6 @@
         flex-flow: column;
         flex-wrap: wrap;
         align-content: flex-end;
-        height: 650px;
     }
     #before-applications{
         display: none;
