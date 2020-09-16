@@ -1,0 +1,126 @@
+/* Smartphone (horizontal phones, 576px and down)*/
+@media screen and (max-width: 575px) {
+    #profile-pic{
+        overflow: hidden;
+        margin: none;
+        padding: none;
+    }
+    #profile-pic img{
+        height: auto;
+        max-width: 100%;
+    }
+    #cover-letter{
+        margin-top: 20px;
+    }
+}
+/* Medium devices (tablets, 575px and up)*/
+@media screen and (min-width: 575px) {
+    #profile-pic{
+        overflow: hidden;
+        margin: none;
+        padding: none;
+    }
+    #profile-pic img{
+        height: auto;
+        max-width: 100%;
+    }
+    #cover-letter{
+        margin-top: 20px;
+    }
+} 
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+    #profile-pic{
+        overflow: hidden;
+        margin: none;
+        padding: none;
+    }
+    #profile1{
+        margin-top: 85px;
+    }
+    #profile-pic img{
+        height: auto;
+        max-width: 100%;
+    }
+    #cover-letter{
+        margin-top: 20px;
+    }
+    #before-applications{
+        display: none;
+    }
+    #profile-pic img{
+        position: absolute;
+        top: 0;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) { 
+    #profile-pic{
+        overflow: hidden;
+    }
+    #profile-pic img{
+        height: auto;
+        max-width: 100%;
+    }
+    #profile1{
+        margin-top: 110px;
+    }
+    #cover-letter{
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+    #before-applications{
+        display: none;
+    }
+    #profile-pic img{
+        position: absolute;
+        top: 0;
+    }
+}
+
+body{
+    background-color: #1B1A1A;
+    overflow-x: hidden;
+    overflow-y: Sauto;
+}
+body, html{
+    height: 100%;
+}
+a{
+    color: #FFE15F;
+}
+a:hover{
+    color: #D78D1E;
+    text-decoration: none;
+}
+.footer a{
+    margin: 0px 10px;
+}
+.space{
+    height: 50px;
+}
+.footer{
+    margin: 100px 0px 40px 0px;
+    align-items: center;
+}
+#profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cover-letter{
+    text-align: justify;
+    text-justify: inter-character;
+}
+#carousel1{
+    height: 300px;
+    overflow: hidden;
+}
+.carousel img{
+    vertical-align: center;
+    justify-content: center;
+    width: max-content;
+    height: auto;
+}
