@@ -48,6 +48,10 @@
     #before-applications{
         display: none;
     }
+    #profile-pic img{
+        position: absolute;
+        top: 0;
+    }
 }
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) { 
@@ -70,7 +74,10 @@
     #before-applications{
         display: none;
     }
-    
+    #profile-pic img{
+        position: absolute;
+        top: 0;
+    }
 }
 
 body{

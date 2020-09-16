@@ -135,7 +135,7 @@ p.h1-name{
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
-    font-size: 3.6rem;
+    font-size: 3.0rem;
     color:#FFE15F;
 }
 
@@ -143,7 +143,7 @@ p.h2 {
     font-family: Lato;
     font-style: normal;
     font-weight: 600;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     color: #ebebeb;
 }
 p.h2-bold {
@@ -154,7 +154,7 @@ p.h2-bold {
 p.h2-light {
     font-family: Lato;
     font-weight: 300;
-    font-size: 2.4rem;
+    font-size: 2.0rem;
 }
 p.h2-works {
     font-family: Lato;
@@ -182,7 +182,7 @@ p{
 p.h4{
     font-family: Lato;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 400;
     color: #EBEBEB;
 }
@@ -198,15 +198,16 @@ p.h4-light {
 }
 p.h4-black {
     font-family: lato;
-    font-weight: 900;
+    font-weight: 300;
     font-size: 1.2rem;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 p.h5{
     font-family: Lato;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 400;
     text-transform: uppercase;
     color: #D78D1E;
@@ -222,8 +223,8 @@ p.h5-sm-txt{
     font-family: Lato;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 1.4rem;
-    color: #ebebeb;
+    font-size: 1.0rem;
+    color: #dadada;
 }
 p.cv{
     font-family: lato;
@@ -238,15 +239,22 @@ p.cv-bold{
     font-size: 1.6rem;
     color: #FFFFFF;
 }
+p.cv1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    line-height: 1.2rem;
+}
+p.cv1 a{
+    color: #FFFFFF;
+}
 /* Smartphone (vertical phones, 576px and down)*/
 @media screen and (max-width: 575px) {  
     #logo img{
         width: 70px;
         height: auto;
-    }
-    .about{
-        padding: 10px 0px;
-        font-size: 14px;
     }
     #menu{
         position: fixed;
@@ -261,16 +269,21 @@ p.cv-bold{
         margin: 30px 0px 40px 0px;
         align-items: center;
     }
-
+    p.h4-black {
+        font-size: 1.0rem;
+    }
+    p.h5-sm-txt{
+        font-size: 1.0rem;
+    }
+    p.h2-light{
+        font-size: 1.8rem;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media screen and (min-width: 576px) {  
     #logo img{
         width: 60px;
         height: auto;
-    }
-    .about{
-        padding: 10px 0px;
     }
     #menu{
         position: fixed;
@@ -292,9 +305,6 @@ p.cv-bold{
         width: 90px;
         height: auto;
     }
-    .about{
-        padding: 10px 0px;
-    }
     #menu{
         position: fixed;
         top: 0;
@@ -315,9 +325,6 @@ p.cv-bold{
         width: 130px;
         height: auto;
     }
-    .about{
-        padding: 10px 0px;
-        }
     #menu{
         position: fixed;
         top: 0;
@@ -332,13 +339,16 @@ p.cv-bold{
     .footer a{
         padding: 5px;
     }
+    .h1-name{
+        padding-top: 150px;
+    }
 }
 .dot{
     height: 5px;
     width: 5px;
-    background-color: #FFE15F;
+    background-color: #FFFFFF;
     border-radius: 50%;
-    margin-bottom: 3px;
+    margin-bottom: 13px;
 }
 .dot2{
     height: 5px;
@@ -385,6 +395,7 @@ li{
     width: 50px;
     color: #FFE15F;
 }
-.about{
-    text-transform: uppercase;
+.pic{
+    max-width: 100%;
+    height: auto;
 }

@@ -25,6 +25,9 @@
         margin: 30px 0px 40px 0px;
         align-items: center;
     }
+    #card-container2{
+        margin: 50px 0px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
