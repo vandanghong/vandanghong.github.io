@@ -261,12 +261,14 @@ p.sub-title-1{
     font-weight: 700;
     font-size: 2.4rem;
     color: #FFFFFF;
+    margin-bottom: 0.1rem;
 }
 p.sub-title-2{
     font-family: merri;
     font-weight: 700;
     font-size: 1.6rem;
     color: #FFFFFF;
+    margin-bottom: 0.1rem;
 }
 p.op-des{
     font-family: merri;
@@ -282,7 +284,7 @@ p.img-des{
     font-size: 1.2rem;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 p.body-txt{
     font-family: merri;
@@ -307,6 +309,9 @@ p.quotation{
     font-weight: 300;
     font-size: 2.0rem;
     color: #bebebe;
+}
+p.ab-ul{
+    margin-bottom:0.1rem;
 }
 /* Smartphone (vertical phones, 576px and down)*/
 @media screen and (max-width: 575px) {  
@@ -443,6 +448,9 @@ i{
 }
 li{
     color: #c2c2c2;
+}
+li p{
+    margin-bottom: 0.1rem;
 }
 .txt-justify{
     text-align: justify;
