@@ -129,7 +129,7 @@ p.h1 {
     font-style: normal;
     font-weight: 600;
     font-size: 4.8rem;
-    color: #ffffff;
+    color: #f0f0f0;
 }
 p.h1-name{
     font-family: Lato;
@@ -169,14 +169,14 @@ p.h3{
     font-style: normal;
     font-size: 2.4rem;
     font-weight: 600;
-    color: #FFFFFF;
+    columns: #f0f0f0;
 }
 p{
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
     font-size: 1.6rem;
-    color: #FFFFFF;
+    color: #f0f0f0;
 }
 
 p.h4{
@@ -200,7 +200,7 @@ p.h4-black {
     font-family: lato;
     font-weight: 300;
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #f0f0f0;
     text-transform: uppercase;
 }
 
@@ -230,44 +230,45 @@ p.cv{
     font-family: lato;
     font-weight: 300;
     font-size: 1.6rem;
-    color: #FFFFFF;
+    color: #f0f0f0;
     margin-bottom: none;
 }
 p.cv-bold{
     font-family: lato;
     font-weight: 500;
     font-size: 1.6rem;
-    color: #FFFFFF;
+    color: #f0f0f0;
 }
 p.cv1{
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
-    font-size: 1.2rem;
-    color: #FFFFFF;
+    font-size: 1.5rem;
+    color: #f0f0f0;
     line-height: 1.2rem;
 }
 p.cv1 a{
-    color: #FFFFFF;
+    color: #f0f0f0;
 }
 p.title{
     font-family: merri;
     font-weight: 700;
     font-size: 3.6rem;
-    color: #FFFFFF;
+    color: #e0e0e0;
+    line-height: 3.6rem;
 }
 p.sub-title-1{
     font-family: merri;
     font-weight: 700;
-    font-size: 2.4rem;
-    color: #FFFFFF;
+    font-size: 2.2rem;
+    color:#e0e0e0;
     margin-bottom: 0.1rem;
 }
 p.sub-title-2{
     font-family: merri;
     font-weight: 700;
-    font-size: 1.6rem;
-    color: #FFFFFF;
+    font-size: 1.4rem;
+    color: #e0e0e0;
     margin-bottom: 0.1rem;
 }
 p.op-des{
@@ -275,34 +276,34 @@ p.op-des{
     font-weight: 300;
     font-style: italic;
     font-size: 1.2rem;
-    color: #FFFFFF;
+    color: #f0f0f0;
 }
 p.img-des{
     font-family: merri;
     font-weight: 300;
     font-style: italic;
     font-size: 1.0rem;
-    color: #FFFFFF;
+    color: #f0f0f0;
     text-align: center;
     padding-top: 15px;
 }
 p.body-txt{
     font-family: merri;
-    font-weight: 300;
-    font-size: 1.0rem;
-    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #e0e0e0;
 }
 p.xtra-info-1{
     font-family: lato;
     font-weight: 600;
     font-size: 1.2rem;
-    color: #FFFFFF;
+    color: #f0f0f0;
 }
 p.xtra-info-2{
     font-family: lato;
     font-weight: 300;
     font-size: 1.2rem;
-    color: #FFFFFF;
+    color: #f0f0f0;
 }
 p.quotation{
     font-family: merri;
@@ -312,6 +313,9 @@ p.quotation{
 }
 p.ab-ul{
     margin-bottom:0.1rem;
+}
+span.hl{
+    background-color:#e2bb50;
 }
 /* Smartphone (vertical phones, 576px and down)*/
 @media screen and (max-width: 575px) {  
@@ -409,7 +413,7 @@ p.ab-ul{
 .dot{
     height: 5px;
     width: 5px;
-    background-color: #FFFFFF;
+    background-color: #f0f0f0;
     border-radius: 50%;
     margin-bottom: 13px;
 }
@@ -428,7 +432,7 @@ p.ab-ul{
     align-items: center;
 }
 .space{
-    height: 50px;
+    height: 40px;
 }
 .space2{
     height: 20px;
@@ -444,7 +448,7 @@ p.ab-ul{
     justify-content: center;
 }
 i{
-    color: #FFFFFF;
+    color: #f0f0f0;
 }
 li{
     color: #c2c2c2;

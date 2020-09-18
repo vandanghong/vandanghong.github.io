@@ -47,3 +47,11 @@ img{
     max-width: 100%;
     height: auto;
 }
+p a{
+    font-family: merri;
+    color: #FFE15F;
+    text-decoration: underline;
+}
+p a:hover{
+    color: #e2bb50;
+}
