@@ -48,10 +48,10 @@ img{
     height: auto;
 }
 p a{
-    font-family: merri;
-    color: #FFE15F;
-    text-decoration: underline;
+    font-family: lato;
+    color: #ffe881;
+    text-decoration: none;
 }
 p a:hover{
-    color: #e2bb50;
+    color: #D78D1E;
 }

@@ -7,13 +7,6 @@
     #about{
         padding: 10px 0px;
     }
-    #menu{
-        position: fixed;
-        top: 0;
-        z-index: 10;
-        margin: 10px 0px;
-        
-    }
     .card-img{
         border-radius: 15px;
         margin-bottom: 15px;
@@ -39,12 +32,6 @@
     #about{
         padding: 10px 0px;
         }
-    #menu{
-        position: fixed;
-        top: 0;
-        z-index: 10;
-        margin: 10px 0px;
-    }
     .card-img{
         border-radius: 30px;
         margin-bottom: 15px;
@@ -64,18 +51,12 @@
 /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
     #logo img{
-        width: 70px;
+        width: 80px;
         height: auto;
     }
     #about{
         padding: 20px 0px;
         }
-    #menu{
-        position: fixed;
-        top: 0;
-        z-index: 10;
-        margin: 10px 0px;
-    }
     .card-img{
         border-radius: 30px;
         margin-bottom: 15px;
@@ -95,18 +76,12 @@
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) { 
     #logo img{
-        width: 130px;
+        width: 100px;
         height: auto;
     }
     #about{
         padding: 10px 0px;
         }
-    #menu{
-        position: fixed;
-        top: 0;
-        z-index: 10;
-        margin: 20px 0px;
-    }
     .card-img{
         border-radius: 20px;
         
@@ -192,3 +167,4 @@ a:hover{
     margin: 0 auto;
     opacity: 0.6;
 }
+

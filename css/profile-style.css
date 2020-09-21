@@ -9,9 +9,6 @@
         height: auto;
         max-width: 100%;
     }
-    #cover-letter{
-        margin-top: 20px;
-    }
 }
 /* Medium devices (tablets, 575px and up)*/
 @media screen and (min-width: 575px) {
@@ -24,9 +21,7 @@
         height: auto;
         max-width: 100%;
     }
-    #cover-letter{
-        margin-top: 20px;
-    }
+    
 } 
 /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
@@ -41,9 +36,6 @@
     #profile-pic img{
         height: auto;
         max-width: 100%;
-    }
-    #cover-letter{
-        margin-top: 20px;
     }
     #before-applications{
         display: none;
@@ -65,18 +57,15 @@
     #profile1{
         margin-top: 110px;
     }
-    #cover-letter{
-        display: flex;
-        flex-flow: column;
-        flex-wrap: wrap;
-        align-content: flex-end;
-    }
     #before-applications{
         display: none;
     }
     #profile-pic img{
         position: absolute;
         top: 0;
+    }
+    #cover-letter{
+        margin-left: 1rem;
     }
 }
 
@@ -109,10 +98,6 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#cover-letter{
-    text-align: justify;
-    text-justify: inter-character;
 }
 #carousel1{
     height: 300px;
