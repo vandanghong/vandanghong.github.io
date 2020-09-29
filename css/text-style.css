@@ -128,6 +128,9 @@ body{
     font-size: 62.5%;
     font-family: 'Lato',serif;
     font-size: 1.6rem;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 p.h1 {
     font-family: Lato;
@@ -137,21 +140,21 @@ p.h1 {
     color: #f0f0f0;
 }
 p.h1-name{
-    font-family: Lato;
+    font-family: Os;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 900;
     font-size: 3.0rem;
-    color:#D78D1E;
+    color:#185c99;
     line-height: 3.0rem;
     margin-top: 1rem;
 }
 
 p.h2 {
-    font-family: Lato;
+    font-family: Os;
     font-style: normal;
     font-weight: 600;
     font-size: 2.4rem;
-    color: #ebebeb;
+    color: #eaae42;
 }
 p.h2-bold {
     font-family: Lato;
@@ -160,8 +163,9 @@ p.h2-bold {
 }
 p.h2-light {
     font-family: Lato;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
+    color: #185c99;
 }
 p.h2-works {
     font-family: Lato;
@@ -181,9 +185,9 @@ p.h3{
 p{
     font-family: Lato;
     font-style: normal;
-    font-weight: 300;
-    font-size: 1.5rem;
-    color: #f0f0f0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #1c1c1d;
 }
 p.h4-role{
     font-family: Lato;
@@ -205,7 +209,7 @@ p.h4{
     font-style: normal;
     font-size: 1.0rem;
     font-weight: 400;
-    color: #EBEBEB;
+    color: #185c99;
 }
 p.h4-regular {
     font-family: Lato;
@@ -219,19 +223,25 @@ p.h4-light {
 }
 p.h4-black {
     font-family: lato;
-    font-weight: 300;
-    font-size: 1.2rem;
-    color: #f0f0f0;
+    font-weight: 500;
+    font-size: 1.0rem;
+    color:  #185c99;;
     text-transform: uppercase;
 }
-
+p.h4-black-ab{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 1.0rem;
+    color:  #eaae42;;
+    text-transform: uppercase;
+}
 p.h5{
     font-family: Lato;
     font-style: normal;
     font-size: 1.0rem;
     font-weight: 400;
     text-transform: uppercase;
-    color: #D78D1E;
+    color: #5ea3d5;
 }
 p.h5-regular{
     font-family: Lato;
@@ -241,11 +251,11 @@ p.h5-regular{
     color: #ebebeb;
 }
 p.h5-sm-txt{
-    font-family: Lato;
+    font-family: Os;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 1.0rem;
-    color: #dadada;
+    font-size: 1.5rem;
+    color: #5ea3d5;
 }
 p.cv{
     font-family: lato;
@@ -263,52 +273,56 @@ p.cv-bold{
 p.cv1{
     font-family: Lato;
     font-style: normal;
-    font-weight: 300;
-    font-size: 1.5rem;
-    color: #f0f0f0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #1c1c1d;
     line-height: 1.2rem;
 }
 p.cv1 a{
-    color: #f0f0f0;
+    color: #1c1c1d;
 }
 p.title{
-    font-family: bree;
+    font-family: Os;
     font-size: 4.0rem;
-    color: #e0e0e0;
+    color: #eaae42;
     line-height: 4.0rem;
+    font-weight: 700;
 }
 p.sub-title-1{
-    font-family: bree;
+    font-family: Os;
     font-size: 2.2rem;
-    color:#e0e0e0;
+    color:#eaae42;
     margin-top: 4.0rem;
+    font-weight: 700;
+    font-kerning: 0.3rem;
 }
 p.sub-title-2{
-    font-family: bree;
-    font-size: 1.4rem;
-    color: #e0e0e0;
+    font-family: Os;
+    font-size: 1.8rem;
+    color: #eaae42;
     margin-top: 3.0rem;
+    font-weight: 700;
 }
 p.op-des{
     font-family: lato;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2rem;
-    color: #f0f0f0;
+    color: #1c1c1d;
 }
 p.img-des{
     font-family: lato;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     font-size: 1.0rem;
-    color: #f0f0f0;
+    color: #1c1c1d;
     text-align: center;
 }
 p.body-txt{
     font-family: lato;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2rem;
-    color: #e0e0e0;
+    color: #1c1c1d;
     line-height: 2.0rem;
 }
 p.xtra-info-1{
@@ -325,15 +339,17 @@ p.xtra-info-2{
 }
 p.quotation{
     font-family: lato;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.8rem;
-    color: #bebebe;
+    color: #D78D1E;
     line-height: 3.6rem;
     margin: 4.0rem;
 }
 p.hello{
-    font-size: 2.0rem;
+    font-family: Os;
+    font-size: 4.0rem;
     font-weight: 600;
+    color: #185c99;
 }
 p.ab-ul{
     margin-bottom:0.1rem;
@@ -344,11 +360,22 @@ span.hl{
 #article img{
     margin-top: 1.0rem;
 }
+.card-img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card-img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card{
+    border-color: #ffffff;
+}
 /* Smartphone (vertical phones, 576px and down)*/
 @media screen and (max-width: 575px) {  
     #logo img{
-        width: 70px;
+        width: 60px;
         height: auto;
+        padding-left: 10px;
     }
     #menu{
         position: fixed;
@@ -377,8 +404,9 @@ span.hl{
 /* Small devices (landscape phones, 576px and up)*/
 @media screen and (min-width: 576px) {  
     #logo img{
-        width: 60px;
+        width: 70px;
         height: auto;
+        padding-left: 10px;
     }
     #menu{
         position: fixed;
@@ -399,6 +427,7 @@ span.hl{
     #logo img{
         width: 90px;
         height: auto;
+        padding-left: 10px;
     }
     #menu{
         position: fixed;
@@ -417,8 +446,9 @@ span.hl{
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) { 
     #logo img{
-        width: 130px;
+        width: 120px;
         height: auto;
+        padding-left: 10px;
     }
     #menu{
         position: fixed;
@@ -438,7 +468,7 @@ span.hl{
 .dot{
     height: 5px;
     width: 5px;
-    background-color: #f0f0f0;
+    background-color: #185c99;
     border-radius: 50%;
     margin-bottom: 13px;
 }
@@ -495,5 +525,5 @@ li p{
     height: auto;
 }
 #menu{
-    background-color: #1b1a1aa2;
+    background-color: rgba(255, 255, 255, 0.6);
 }

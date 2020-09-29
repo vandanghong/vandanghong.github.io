@@ -14,11 +14,7 @@
         
     }
 }
-body, html{
-    background-color: #1B1A1A;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
+
 .header-img {
     background-image: url("../Cookoo-pic/cover4.png");
     background-position: center center;
@@ -49,7 +45,7 @@ img{
 }
 p a{
     font-family: lato;
-    color: #ffe881;
+    color: #5ea3d5;
     text-decoration: none;
 }
 p a:hover{

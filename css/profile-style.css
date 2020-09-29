@@ -68,12 +68,6 @@
         margin-left: 1rem;
     }
 }
-
-body{
-    background-color: #1B1A1A;
-    overflow-x: hidden;
-    overflow-y: Sauto;
-}
 body, html{
     height: 100%;
 }
