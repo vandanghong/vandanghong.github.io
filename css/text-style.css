@@ -201,7 +201,7 @@ p.h5-sm-txt{
     font-weight: 900;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: #5ea3d5;
+    color: #d69824;
 }
 p.cv{
     font-family: lato;
@@ -225,7 +225,10 @@ p.cv1{
     line-height: 1.2rem;
 }
 p.cv1 a{
-    color: #1c1c1d;
+    color: #185c99;
+}
+p.cv1 a:hover{
+    text-decoration:underline;
 }
 p.title{
     font-family: Oswald;
