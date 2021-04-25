@@ -58,71 +58,10 @@
     font-weight: 900;
     font-style: normal;
   }  
-
   @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-Light.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-LightItalic.ttf") format("truetype");
-    font-weight: 300;
-    font-style: italic;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-Italic.ttf") format("truetype");
-    font-weight: 400;
-    font-style: italic;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-BoldItalic.ttf") format("truetype");
-    font-weight: 700;
-    font-style: italic;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-BlackItalic.ttf") format("truetype");
-    font-weight: 900;
-    font-style: italic;
-  }  
-  @font-face {
-    font-family: "merri";
-    src: url("../Fonts/Merriweather-Black.ttf") format("truetype");
-    font-weight: 900;
-    font-style: normal;
-  }  
-  @font-face {
-      font-family: Os;
-      src: url(../Fonts/Oswald-VariableFont_wght.ttf);
-      font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+    src: url(../Fonts/Oswald-VariableFont_wght.ttf);
   }
-  @font-face {
-    font-family: Bree;
-    src: url(../Fonts/BreeSerif-Regular.ttf);
-    font-weight: 400;
-}
 
 body{
     font-size: 62.5%;
@@ -140,9 +79,9 @@ p.h1 {
     color: #f0f0f0;
 }
 p.h1-name{
-    font-family: Os;
+    font-family: Oswald;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 3.0rem;
     color:#eaae42;
     line-height: 3.0rem;
@@ -150,7 +89,7 @@ p.h1-name{
 }
 
 p.h2 {
-    font-family: Os;
+    font-family: Oswald;
     font-style: normal;
     font-weight: 600;
     font-size: 2.4rem;
@@ -222,9 +161,16 @@ p.h4-light {
     font-size: 1.8rem;
 }
 p.h4-black {
-    font-family: lato;
+    font-family: Oswald;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    color:  #185c99;;
+    text-transform: uppercase;
+}
+p.h4-black-1 {
+    font-family: Oswald;
     font-weight: 500;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     color:  #185c99;;
     text-transform: uppercase;
 }
@@ -251,7 +197,7 @@ p.h5-regular{
     color: #ebebeb;
 }
 p.h5-sm-txt{
-    font-family: Os;
+    font-family: Oswald;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -282,23 +228,23 @@ p.cv1 a{
     color: #1c1c1d;
 }
 p.title{
-    font-family: Os;
-    font-size: 4.0rem;
+    font-family: Oswald;
+    font-size: 3.0rem;
     color: #eaae42;
     line-height: 4.0rem;
     font-weight: 700;
 }
 p.sub-title-1{
-    font-family: Os;
-    font-size: 2.2rem;
+    font-family: Oswald;
+    font-size: 1.8rem;
     color:#eaae42;
     margin-top: 4.0rem;
     font-weight: 700;
     font-kerning: 0.3rem;
 }
 p.sub-title-2{
-    font-family: Os;
-    font-size: 1.8rem;
+    font-family: Oswald;
+    font-size: 1.4rem;
     color: #eaae42;
     margin-top: 3.0rem;
     font-weight: 700;
@@ -340,13 +286,13 @@ p.xtra-info-2{
 p.quotation{
     font-family: lato;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #D78D1E;
     line-height: 3.6rem;
     margin: 4.0rem;
 }
 p.hello{
-    font-family: Os;
+    font-family: Oswald;
     font-size: 4.0rem;
     font-weight: 600;
     color: #185c99;
@@ -392,7 +338,7 @@ span.hl{
         align-items: center;
     }
     p.h4-black {
-        font-size: 1.0rem;
+        font-size: 1.2rem;
     }
     p.h5-sm-txt{
         font-size: 1.0rem;
@@ -420,6 +366,9 @@ span.hl{
     .footer{
         margin: 30px 0px 40px 0px;
         align-items: center;
+    }
+    .hello{
+        font-size: 3.0rem;
     }
 }
 /* Medium devices (tablets, 768px and up)*/
